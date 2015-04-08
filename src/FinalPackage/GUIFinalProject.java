@@ -99,23 +99,13 @@ public class GUIFinalProject extends JFrame {
 		gbc_txtpnPatientsBeingExamined.gridy = 1;
 		getContentPane().add(txtpnPatientsBeingExamined, gbc_txtpnPatientsBeingExamined);
 		
-		JTextPane txtpnPatientBeingExamined = new JTextPane();
-		txtpnPatientBeingExamined.setText("Patients being Examined");
-		txtpnPatientBeingExamined.setEditable(false);
-		GridBagConstraints gbc_txtpnPatientBeingExamined = new GridBagConstraints();
-		gbc_txtpnPatientBeingExamined.insets = new Insets(0, 0, 5, 5);
-		gbc_txtpnPatientBeingExamined.fill = GridBagConstraints.BOTH;
-		gbc_txtpnPatientBeingExamined.gridx = 7;
-		gbc_txtpnPatientBeingExamined.gridy = 1;
-		getContentPane().add(txtpnPatientBeingExamined, gbc_txtpnPatientBeingExamined);
-		
 		JTextPane txtpnPatientsDone = new JTextPane();
 		txtpnPatientsDone.setEditable(false);
 		txtpnPatientsDone.setText("Patients Done");
 		GridBagConstraints gbc_txtpnPatientsDone = new GridBagConstraints();
 		gbc_txtpnPatientsDone.insets = new Insets(0, 0, 5, 5);
 		gbc_txtpnPatientsDone.fill = GridBagConstraints.BOTH;
-		gbc_txtpnPatientsDone.gridx = 9;
+		gbc_txtpnPatientsDone.gridx = 7;
 		gbc_txtpnPatientsDone.gridy = 1;
 		getContentPane().add(txtpnPatientsDone, gbc_txtpnPatientsDone);
 		
@@ -125,7 +115,7 @@ public class GUIFinalProject extends JFrame {
 		GridBagConstraints gbc_txtpnExamTime = new GridBagConstraints();
 		gbc_txtpnExamTime.insets = new Insets(0, 0, 5, 5);
 		gbc_txtpnExamTime.fill = GridBagConstraints.BOTH;
-		gbc_txtpnExamTime.gridx = 11;
+		gbc_txtpnExamTime.gridx = 9;
 		gbc_txtpnExamTime.gridy = 1;
 		getContentPane().add(txtpnExamTime, gbc_txtpnExamTime);
 		
@@ -158,19 +148,11 @@ public class GUIFinalProject extends JFrame {
 		getContentPane().add(textPane, gbc_textPane);
 		
 		
-		textPane_3.setEditable(false);
-		GridBagConstraints gbc_textPane_3 = new GridBagConstraints();
-		gbc_textPane_3.insets = new Insets(0, 0, 0, 5);
-		gbc_textPane_3.fill = GridBagConstraints.BOTH;
-		gbc_textPane_3.gridx = 7;
-		gbc_textPane_3.gridy = 2;
-		getContentPane().add(textPane_3, gbc_textPane_3);
-		
 		textPane_4.setEditable(false);
 		GridBagConstraints gbc_textPane_4 = new GridBagConstraints();
 		gbc_textPane_4.insets = new Insets(0, 0, 0, 5);
 		gbc_textPane_4.fill = GridBagConstraints.BOTH;
-		gbc_textPane_4.gridx = 9;
+		gbc_textPane_4.gridx = 7;
 		gbc_textPane_4.gridy = 2;
 		getContentPane().add(textPane_4, gbc_textPane_4);
 		
@@ -178,7 +160,7 @@ public class GUIFinalProject extends JFrame {
 		GridBagConstraints gbc_textPane_6 = new GridBagConstraints();
 		gbc_textPane_6.insets = new Insets(0, 0, 0, 5);
 		gbc_textPane_6.fill = GridBagConstraints.BOTH;
-		gbc_textPane_6.gridx = 11;
+		gbc_textPane_6.gridx = 9;
 		gbc_textPane_6.gridy = 2;
 		getContentPane().add(textPane_6, gbc_textPane_6);
 	}
