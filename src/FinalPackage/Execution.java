@@ -1,6 +1,7 @@
 package FinalPackage;
 import java.util.Random;
 import java.awt.GridBagLayout;
+import java.awt.Color;
 
 public class Execution {
 	static GUIFinalProject Gframe = new GUIFinalProject();
@@ -8,6 +9,8 @@ public class Execution {
 			int i = 10;
 			GridBagLayout gridBagLayout = (GridBagLayout) Gframe.getContentPane().getLayout();
 			gridBagLayout.columnWidths = new int[]{0, 0, 0, 0, 0, 90, 0, 0, 0, 0, 0, 0, 0};
+			Gframe.getContentPane().setBackground(Color.RED);
+			Gframe.setBackground(Color.RED);
 			Gframe.setVisible(true);
 			while ( i != 0)
 			{
